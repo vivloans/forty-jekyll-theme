@@ -57,7 +57,7 @@
 
 			&:active {
 				strong {
-					background-color: desaturate(darken(_palette(highlight), 15), 5);
+					background-color: desaturate(lighten(_palette(highlight), 15), 5);
 				}
 			}
 		}
